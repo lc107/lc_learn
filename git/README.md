@@ -1,4 +1,4 @@
-# git学习
+# GIT学习
 ## git设置全局账号：
 1、查看git配置信息 git config --list
 
