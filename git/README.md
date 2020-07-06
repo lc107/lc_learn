@@ -1,15 +1,27 @@
 # git学习
 ## git设置全局账号：
 1、查看git配置信息 git config --list
+
 2、查看git用户名 git config user.name
+
 3、查看邮箱配置 git config user.email
+
 4、全局配置用户名 git config --global user.name "nameVal"
+
 5、全局配置邮箱 git config --global user.email "eamil@qq.com"
+
 ## git设置局部账号：
 1、进入仓库
+
 2、全局配置用户名 git config  user.name "nameVal"
+
 3、全局配置邮箱 git config  user.email "eamil@qq.com"
+
 4、查看git配置信息 git config --list
+
+
+## 查看当前电脑下存在的git账户
+C:\Users\当前用户\.gitconfig
    
 
 ## 初始化 在工作路径上创建主分支
