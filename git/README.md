@@ -23,18 +23,26 @@
 ### 查看当前电脑下存在的git账户
 C:\Users\当前用户\.gitconfig
    
-
 ### 初始化 在工作路径上创建主分支
 git init 
 
 ### 克隆远程仓库
 git clone 地址 
 
+### 拉取代码
+git pull
+
 ### 克隆分支的代码到本地
 git clone -b 分支名 地址 
 
 ### 查看状态
 git status 
+
+### 查看日志
+git log
+
+### 查看不同
+git diff
 
 ### 将某个文件存入暂存区
 git add 文件名 
@@ -50,3 +58,6 @@ git add -p 文件名
 
 ### 提交到仓库
 git commit -m "提交的备注信息"  
+
+### 推送
+git push
