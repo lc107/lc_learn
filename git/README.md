@@ -1,5 +1,5 @@
 # GIT学习
-### git设置全局账号：
+### 设置全局账号：
 1、查看git配置信息 git config --list
 
 2、查看git用户名 git config user.name
@@ -10,7 +10,7 @@
 
 5、全局配置邮箱 git config --global user.email "eamil@qq.com"
 
-### git设置局部账号：
+### 设置局部账号：
 1、进入仓库
 
 2、全局配置用户名 git config  user.name "nameVal"
