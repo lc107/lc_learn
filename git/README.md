@@ -22,6 +22,10 @@
 
 ### 查看当前电脑下存在的git账户
 C:\Users\当前用户\.gitconfig
+
+命令行查看
+
+~/.gitconfig
    
 ### 初始化 在工作路径上创建主分支
 git init 
@@ -61,3 +65,6 @@ git commit -m "提交的备注信息"
 
 ### 推送
 git push
+
+## 一般提交顺序
+commit -> pull -> push
