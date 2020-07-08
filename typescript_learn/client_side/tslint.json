@@ -4,6 +4,9 @@
         "tslint:recommended"
     ],
     "jsRules": {},
-    "rules": {},
+    "rules": {
+        "interface-name":[true,"never-prefix"], //interface 类型不加前缀 I
+        "no-console": false //console.log 报警告
+    },
     "rulesDirectory": []
 }
