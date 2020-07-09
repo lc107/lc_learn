@@ -3,7 +3,7 @@ const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 module.exports = {
     entry:"./src/index.ts",
     output:{
-        filename:"main.js"
+        filename:"[name].bundle.[hash:5].js"
     },
     resolve:{
         extensions:['.ts','.tsx','.js']

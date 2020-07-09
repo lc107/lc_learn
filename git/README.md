@@ -72,3 +72,15 @@ commit -> pull -> push
 ------
 
 ### **分支**
+.....................
+
+### 导入现有文件加到远程仓库
+git init （如果为第一次，就输入该命令初始化目录，否则可直接跳过）
+
+git add 目录名称（添加需要提交的目录名称）
+
+git commit -m "备注说明"（提交至本地仓库，并简单说明）
+
+git remote add origin https://github.com/lc107/lc_learn.git (如果为第一次使用需要重定向提交的路径)
+
+git push -u origin master（提交至远程仓库）

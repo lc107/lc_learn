@@ -2,4 +2,4 @@
 // import './example/symbol'
 // import './example/interface'
 
-import './example/WeChatOfficial/WeChatOfficialAccount'
+import './example/OtherBloggers/WeChatOfficialAccount'
