@@ -80,6 +80,46 @@ console.log( ( persion as Student ).learn() );
 
 console.log( ( persion as Teacher ).teache() );
 
+// 2.2.4　typeof与instanceof
+
+// 2.2.5　类型别名
+type Age = number;
+type AgeCreator = () => Age;
+
+// function getAge( arg:AgeCreator ):Age {
+//     function arg()
+// }
+
+// type Persion<T> = { age:T };
+
+// type Persion<T> = {
+//     name:T;
+//     mother:Persion<T>;
+//     father:Persion<T>;
+// }
+
+// 2.2.6　字面量类型
+// type Persion = "teacher";
+type Profession = "teacher" | "doctor" | "accountant";
+// function persionCreator( Profession:Persion ){
+
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
